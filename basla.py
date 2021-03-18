@@ -1,6 +1,6 @@
 # Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-from Robot import kekikRobot, baslangic, tum_eklentiler, bilgi
+from Robot import IETTRobot, baslangic, tum_eklentiler, bilgi
 
 baslangic() # Bot'u Aç Kapa
 
@@ -21,4 +21,4 @@ bilgi(f"{eklentiler}")
 bilgi("+===============+===============+===============+===============+\n")
 
 if __name__ == "__main__":
-    kekikRobot.run()
+    IETTRobot.run()

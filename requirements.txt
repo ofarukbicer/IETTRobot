@@ -5,4 +5,5 @@ asyncio
 aiohttp
 tgcrypto
 python-dotenv
-fake_useragent
+urllib3
+pyshorteners
