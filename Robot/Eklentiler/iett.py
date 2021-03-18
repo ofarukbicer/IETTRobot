@@ -33,8 +33,8 @@ async def komut(client:Client, message:Message):
     kisalt = Shortener()
 
     butonlar = {
-        # f"{veri['durak_yeri']} ▶️ {veri['durak_yonu']}" : kisalt.qpsru.short(veri['sefer_bilgi'])
-        f"{veri['durak_yeri']} ▶️ {veri['durak_yonu']}" : veri['sefer_bilgi']
+        f"{veri['durak_yeri']} ▶️ {veri['durak_yonu']}" : kisalt.qpsru.short(veri['sefer_bilgi'])
+        # f"{veri['durak_yeri']} ▶️ {veri['durak_yonu']}" : veri['sefer_bilgi']
             for veri in veriler
     }
 
