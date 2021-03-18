@@ -20,7 +20,8 @@ class IETT(object):
                 'durak_adi'  : durak['name'].replace('İ', 'i').title(),
                 'durak_yeri' : durak['location'].replace('İ', 'i').title(),
                 'durak_yonu' : durak['yon'].replace('İ', 'i').title(),
-                'sefer_bilgi': f"https://iett.istanbul/tr/main/duraklar/{durak['code']}/{durak['name']}-İETT-Duraktan-Geçen-Hatlar-Durak-Bilgileri-Hattın-Duraktan-Geçiş-Saatleri"
+                # 'sefer_bilgi': f"https://iett.istanbul/tr/main/duraklar/{durak['code']}/{durak['name']}-İETT-Duraktan-Geçen-Hatlar-Durak-Bilgileri-Hattın-Duraktan-Geçiş-Saatleri"
+                'sefer_bilgi': f"https://iett.istanbul/tr/main/duraklar/{durak['code']}/{durak['name']}"
             })
 
         return sozluk
